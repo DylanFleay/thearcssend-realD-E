@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\build\typenum-494ed2f530878139\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\build\typenum-494ed2f530878139\out\op.rs

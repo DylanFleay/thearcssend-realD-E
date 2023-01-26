@@ -1,0 +1,12 @@
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\notify-84d99f0e36ccd6b7.rmeta: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\windows.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\null.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\poll.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\mod.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\timer.rs
+
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\libnotify-84d99f0e36ccd6b7.rlib: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\windows.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\null.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\poll.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\mod.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\timer.rs
+
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\notify-84d99f0e36ccd6b7.d: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\windows.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\null.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\poll.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\mod.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\timer.rs
+
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\lib.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\windows.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\null.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\poll.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\mod.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\notify-4.0.17\src\debounce\timer.rs:

@@ -1,0 +1,4 @@
+[default]
+address = "0.0.0.0"
+limits = { file = "3 mB" }
+secret_key = "rJwXsXtFnYyp7n0mTb7HZVpqTf/zCHbdFTEA4XYRzD0="

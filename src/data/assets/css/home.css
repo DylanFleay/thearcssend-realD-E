@@ -1,0 +1,476 @@
+    body {
+        background-color: var(--PrimaryBG);
+        margin: 0%;
+        font-family: var(--PrimaryFont);
+        overflow: hidden;
+    }
+    
+    @keyframes hamburger-slide {
+        0% {
+            left: -80vh;
+        }
+        100% {
+            left: 0%;
+        }
+    }
+    
+    @keyframes hamburger-slide-r {
+        0% {
+            left: 0%;
+        }
+        100% {
+            left: -80vh;
+        }
+    }
+    
+    @keyframes smoke {
+        0% {
+            background-color: rgba(0, 0, 0, 0.0);
+        }
+        100% {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+    @keyframes smoke-r {
+        0% {
+            visibility: visible;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        100% {
+            visibility: visible;
+            background-color: rgba(0, 0, 0, 0.0);
+        }
+    }
+    
+    @keyframes settings-slide {
+        0% {
+            bottom: -70%;
+        }
+        100% {
+            bottom: 15%;
+        }
+    }
+    
+    @keyframes settings-slide-r {
+        0% {
+            bottom: 15%;
+        }
+        100% {
+            bottom: -70%;
+        }
+    }
+    
+    #sselect {
+        background-color: var(--PrimaryBG);
+        color: var(--PrimaryFG);
+        position: absolute;
+        border-right: 0.2vw var(--PrimaryFG) solid;
+        z-index: 2;
+        left: -80vh;
+        width: 60vh;
+        max-width: 95vw;
+        height: 100vh;
+    }
+    
+    .ss_group::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #WelcomeDIV {
+        align-content: center;
+        text-align: center;
+        position: relative;
+        top: 16vh;
+        height: 60vh;
+    }
+    
+    #WelcomeName {
+        font-size: 7vh;
+        color: var(--PrimaryFG);
+    }
+    
+    #WelcomePFP {
+        border-radius: 50%;
+        position: relative;
+        width: 15vh;
+        height: 15vh;
+    }
+    
+    #cheader {
+        background-color: var(--SecondaryBG);
+        color: var(--PrimaryBG);
+        position: absolute;
+        z-index: 1;
+        align-content: center;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #ss_hamburger {
+        position: relative;
+        left: 1.5vw;
+        height: 6vh;
+        top: 2vh;
+        border-radius: 0.5vh;
+    }
+    
+    #ccontent {
+        background-color: var(--PrimaryBG);
+        position: absolute;
+    }
+    
+    #cc_out {
+        padding-top: 4vh;
+        width: 100%;
+        position: absolute;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        left: 0%;
+        top: 0%;
+        height: 70vh;
+        padding-bottom: 2vh;
+    }
+    
+    #cc_out::-webkit-scrollbar {
+        display: none;
+    }
+    
+    #ccontent {
+        width: 100vw;
+        height: 90vh;
+        top: 10vh;
+        height: 10vh;
+    }
+    
+    #cc_in {
+        position: absolute;
+        background-color: var(--PrimaryBG);
+        width: 100vw;
+        height: 13vh;
+        top: 75vh;
+    }
+    
+    #cc_in_text {
+        background-color: var(--SecondaryBG);
+        color: var(--PrimaryFG);
+        text-decoration-color: var(--PrimaryBG);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        position: absolute;
+        resize: none;
+        outline: none;
+        width: 80vw;
+        height: 12vh;
+        font-size: 6vh;
+        left: 2vw;
+    }
+    
+    #cc_in_enter {
+        background-color: var(--SecondaryBG);
+        color: var(--PrimaryFG);
+        border: none;
+        border-radius: 10px;
+        position: absolute;
+        width: 14vw;
+        font-size: 3vw;
+        bottom: 0.5vh;
+        left: 85vw;
+        height: 12vh;
+    }
+    
+    #ss_Xit,
+    #ss_PP,
+    #ss_set,
+    #chat_img,
+    #ss_home,
+    #ss_UP {
+        position: relative;
+    }
+    
+    #ss_Xit {
+        width: 7.83vh;
+        left: 2vh;
+        top: 0.9vh;
+    }
+    
+    .server_img,
+    #ss_PP,
+    #chat_img {
+        border-radius: 50%;
+    }
+    
+    .server_img {
+        width: 10vh;
+        height: 10vh;
+        margin-right: 2vh;
+    }
+    
+    #ss_PP {
+        width: 9vh;
+        height: 9vh;
+        left: 3vh;
+        top: 1.5vh;
+    }
+    
+    #chat_img {
+        max-height: 80%;
+        width: 8vh;
+        height: 8vh;
+    }
+    
+    #ss_set:hover {
+        opacity: 75%;
+    }
+    
+    #ss_home:hover {
+        opacity: 75%;
+    }
+    
+    #ss_Xit:hover {
+        opacity: 75%;
+    }
+    
+    #ss_PP:hover {
+        opacity: 75%;
+    }
+    
+    #ss_UP {
+        width: 6vh;
+        left: 2.5vh;
+    }
+    
+    #ss_set {
+        width: 9vh;
+        left: 4vh;
+        top: 1.4vh;
+    }
+    
+    #ss_home {
+        width: 12.6vh;
+        left: 4vh;
+        top: 1.4vh;
+    }
+    
+    .server_name,
+    .server_meta {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .server_name:hover {
+        opacity: 75%;
+    }
+    
+    .server_name {
+        font-size: 6vh;
+        max-width: 18vh;
+    }
+    
+    .server_meta {
+        font-size: 2vh;
+    }
+    
+    .server {
+        display: flex;
+        align-items: center;
+        width: 50vh;
+        height: 12vh;
+        border-radius: 1vh;
+    }
+    
+    .ss_group {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        left: 1vh;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        height: 94vh;
+    }
+    
+    #ss_header {
+        z-index: 5;
+        height: 12vh;
+    }
+    
+    #SmokeScreen {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 5;
+        visibility: hidden;
+    }
+    
+    #SS_SmokeScreen {
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+        visibility: hidden;
+    }
+    
+    #set_Xit {
+        width: 4vh;
+        margin-left: 0.3vh;
+        padding: 0.4vh;
+        border-bottom-right-radius: 0.2vh;
+    }
+    
+    #set_Xit:hover {
+        background-color: var(--PrimaryBG);
+        border-radius: 0.5vh;
+    }
+    
+    #Settings,
+    #User {
+        background-color: var(--SecondaryBG);
+        border-radius: 1vh;
+        border: 0.2vh solid var(--PrimaryFG);
+        position: absolute;
+        z-index: 20;
+        left: 10%;
+        bottom: -100%;
+        padding: 0%;
+        width: 80vw;
+        height: 90vh;
+    }
+    
+    .SettingTab {
+        color: var(--PrimaryFG);
+        padding: 0.2vh;
+        margin-right: 0.2vh;
+        position: relative;
+        bottom: 1.25vh;
+        font-size: 3.7vh;
+        border-bottom-right-radius: 0.5vh;
+        border-bottom-left-radius: 0.5vh;
+    }
+    
+    .SettingTab:hover {
+        background-color: var(--PrimaryFG);
+        color: var(--PrimaryBG);
+    }
+    
+    #ServerHeadName {
+        color: var(--PrimaryFG);
+        position: relative;
+        font-size: 5vh;
+    }
+    
+    .MessageDIV-C {
+        word-wrap: break-word;
+        width: fit-content;
+        margin-bottom: 2vh;
+        max-width: 60vw;
+        overflow-x: hidden;
+        position: relative;
+        background-color: var(--PrimaryFG);
+        color: var(--PrimaryBG);
+        border-radius: 1vh;
+        border-bottom-right-radius: 0px;
+    }
+    
+    .MessageDIV-C,
+    .MessageDIV-F {
+        padding: 0.5vw;
+        padding-left: 1vh;
+        padding-right: 2vh;
+    }
+    
+    .MessageDIV-F {
+        word-wrap: break-word;
+        margin-bottom: 2vh;
+        width: fit-content;
+        max-width: 60vw;
+        overflow-x: hidden;
+        position: relative;
+        left: 1vw;
+        background-color: var(--SecondaryBG);
+        color: var(--PrimaryFG);
+        border-radius: 1vh;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .MessageCONTENT {
+        font-size: 4vh;
+        padding-bottom: 2.5%;
+    }
+    
+    .MessageMETA {
+        font-size: 2vh;
+    }
+    
+    .SettingName {
+        color: var(--PrimaryFG);
+        margin-left: 1vh;
+        font-size: 3.5vh;
+        font-weight: bold;
+    }
+    
+    .SettingStruct_TextBox {
+        background-color: var(--PrimaryBG);
+        color: var(--PrimaryFG);
+        margin-left: 2vw;
+        margin-bottom: 1vw;
+        width: 40vw;
+        height: 5vw;
+        resize: none;
+        border: none;
+        outline: none;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        overflow-x: scroll;
+    }
+    
+    .SettingStruct_Button {
+        position: relative;
+        border: none;
+        border-radius: 0.3vh;
+        padding: 0.3vh;
+        margin-left: 2vh;
+        font-size: 2vh;
+        font-weight: bold;
+        background-color: var(--PrimaryFG);
+    }
+    
+    .SC_Button {
+        border: none;
+        border-radius: 0.3vh;
+        padding: 0.3vh;
+        margin-left: 2vh;
+        font-size: 2vh;
+        font-weight: bold;
+        background-color: var(--PrimaryFG);
+    }
+    
+    .SettingStruct_Entry {
+        background-color: var(--PrimaryBG);
+        color: var(--PrimaryFG);
+        text-decoration-color: var(--PrimaryBG);
+        outline: var(--PrimaryFG);
+        border: 2px solid var(--PrimaryFG);
+        resize: none;
+        outline: none;
+        border-radius: 0.3vw;
+        padding: 0.2vw;
+        margin-left: 2.3vw;
+        font-size: 2vh;
+        font-weight: bold;
+    }
+    
+    .SettingStruct_Status {
+        color: var(--PrimaryFG);
+        font-size: 1vw;
+        font-weight: bold;
+        margin-left: 2vw;
+    }

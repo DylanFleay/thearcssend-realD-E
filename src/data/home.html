@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home | ArcSend</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="en\assets\css\color.css">
+    <link rel="stylesheet" href="en\assets\css\home.css">
+    <script src="en\assets\js\style\home.js"></script>
+</head>
+
+<body>
+    <div id="sselect">
+        <div id="ss_header">
+            <img onclick="hamburger_clicked()" src="en\assets\img\Xit.png" id="ss_Xit">
+            <img onclick="user_clicked()" src="/en/assets/img/profiles/default.png" id="ss_PP" class="pfp">
+            <img onclick="settings_clicked()" src="en\assets\img\Settings.png" id="ss_set">
+            <img onclick="home_clicked()" src="en\assets\img\homeicon.png" id="ss_home">
+        </div>
+        <div id="Friends" class="ss_group">
+
+
+        </div>
+    </div>
+    <div id="cheader">
+        <img onclick="hamburger_clicked()" id="ss_hamburger" src="en\assets\img\Hamburger.png">
+        <img onclick="hamburger_clicked()" id="ss_hamburger" src="en\assets\img\Hamburger.png">
+
+        <div style="display: flex; gap: 2vw; align-items: center; justify-content:center;">
+            <a id="ServerHeadName"></a>
+            <img id="chat_img" style="display: none">
+        </div>
+        <div></div>
+    </div>
+    <div id="ccontent">
+        <div id="cc_out">
+            <div id="WelcomeDIV">
+
+                <img id="WelcomePFP" src="/en/assets/img/profiles/default.png" class="pfp">
+                <br><br><a id="WelcomeName">Welcome {Username}</a>
+            </div>
+        </div>
+        <div id="cc_in">
+            <input type="text" id="cc_in_text"></input>
+            <button onclick="SendMessage()" id="cc_in_enter">Send</button>
+        </div>
+    </div>
+
+
+    <div id="SmokeScreen"></div>
+    <div id="SS_SmokeScreen" onclick="hamburger_clicked()"></div>
+    <div id="Settings">
+        <div id="SettingsTabs">
+            <img onclick="CloseSettings_clicked()" src="en\assets\img\Xit.png" id="set_Xit">
+            <a onclick="fStab('User')" id="SettingTabUser" class="SettingTab">User</a>
+            <a onclick="fStab('General')" id="SettingTabGeneral" class="SettingTab">General</a>
+            <a onclick="fStab('Advanced')" id="SettingTabAdvanced" class="SettingTab">Advanced</a>
+        </div>
+
+        <div id="SettingsUser">
+            <a class="SettingName">Manage Account</a><br>
+            <button id="logOut" onclick="logOut()" class="SettingStruct_Button">Log Off</button><br><br>
+        </div>
+        <div id="SettingsGeneral">
+            <div class="SettingDiv">
+                <a class="SettingName">Word Replacement</a><br>
+                <textarea id="WRTxtBox" placeholder="" class="SettingStruct_TextBox"><Server //WR//></textarea><br>
+                <button id="logOut" onclick="SaveWR()" class="SettingStruct_Button">Save Changes</button>
+            </div>
+        </div>
+        <div id="SettingsAdvanced">
+        </div>
+    </div>
+
+    <div id="User">
+        <div id="SettingsTabs">
+            <img onclick="CloseFriends_clicked()" src="en\assets\img\Xit.png" id="set_Xit">
+            <a onclick="fFtab('Friends')" id="SettingFriends" class="SettingTab">Add Friends</a>
+            <a onclick="fFtab('Profile')" id="SettingProfile" class="SettingTab">Manage Profile</a>
+
+            <img onclick="UP_clicked()" src="en\assets\img\UP.png" id="ss_UP">
+
+        </div>
+
+        <div id="SettingsProfile">
+            <a class="SettingName">Profile Picture</a><br>
+            <input class="SettingStruct_Button" type="file" id="PFPInput">
+            <button id="ChangePFP" onclick="changePFP()" class="SettingStruct_Button">Save Changes</button><br>
+            <div id="changePFPStatus" class="SettingStruct_Status"></div>
+        </div>
+        <div id="SettingsFriends">
+            <a class="SettingName">Add Friend</a><br>
+            <input type="text" class="SettingStruct_Entry" id="AddFriendUsername" name="username">
+            <button id="addFriendBtn" onclick="addFriend()" class="SC_Button">Add Friend</button>
+            <div id="addFriendStatus" class="SettingStruct_Status"></div>
+        </div>
+    </div>
+</body>
+
+</html>

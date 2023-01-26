@@ -1,0 +1,47 @@
+>Group chats // Client side already supports this
+>word replacement //Client side done. note: Lucas, theres a new tag <Server //WR//>. Replace this with the current WR.
+>hidden chat
+>mobile app
+>notifications
+
+> /AddFriend "search": ["email"/"username"], "content": "whatever"
+> /RemoveFriend "search": ["email"/"username"], "content": "whatever"
+> /AddWordReplace "term", "sub",
+
+
+-----
+make sure to wipe chat id on login
+
+---------
+
+
+
+
+
+
+
+
+
+
+hide send button and message bar on login screen
+
+
+confirmation password (create account) doesnt have to be the same
+
+
+birthday can be invalid
+
+
+name First + last can be invalid
+
+
+should be able to revome friends from list
+
+
+time for messages is wrong
+
+
+sometimes sends two messages
+
+
+

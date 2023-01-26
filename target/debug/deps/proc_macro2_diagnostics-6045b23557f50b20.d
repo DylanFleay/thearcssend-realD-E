@@ -1,0 +1,10 @@
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\proc_macro2_diagnostics-6045b23557f50b20.rmeta: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\ext.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\diagnostic.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\line.rs
+
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\libproc_macro2_diagnostics-6045b23557f50b20.rlib: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\ext.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\diagnostic.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\line.rs
+
+C:\Users\Dylan\OneDrive\Documents\GitHub\Enkrypted\target\debug\deps\proc_macro2_diagnostics-6045b23557f50b20.d: C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\lib.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\ext.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\diagnostic.rs C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\line.rs
+
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\lib.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\ext.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\diagnostic.rs:
+C:\Users\Dylan\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-diagnostics-0.9.1\src\line.rs:
